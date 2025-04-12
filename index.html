@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>東方文理大學 (ELAU)</title>
+    <title>東方文理大學 - 校董會及校領導名錄</title>
     <style>
         /* 始頁樣式 - 玄青為底配素文 */
         #start-page {
@@ -69,8 +69,8 @@
 
         /* 正文樣式 - 素底玄文 */
         body {
-            font-family: 'Microsoft YaHei', sans-serif;
-            line-height: 1.6;
+            font-family: 'Microsoft YaHei', serif;
+            line-height: 1.8;
             color: #333333;
             background-color: #f5f7fa;
             max-width: 1200px;
@@ -101,6 +101,7 @@
         
         h1, h2, h3, h4 {
             color: #1a5276;
+            font-weight: 600;
         }
         
         h2 {
@@ -125,6 +126,7 @@
         th {
             background-color: #1a5276;
             color: #ffffff;
+            font-weight: 500;
         }
         
         .nav {
@@ -146,22 +148,6 @@
         .nav a:hover {
             color: #f39c12;
             text-decoration: none;
-        }
-        
-        .back-to-top {
-            display: inline-block;
-            background-color: #1a5276;
-            color: white;
-            padding: 8px 15px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-size: 0.9em;
-            margin-top: 20px;
-            transition: background-color 0.3s;
-        }
-        
-        .back-to-top:hover {
-            background-color: #f39c12;
         }
         
         footer {
@@ -221,10 +207,6 @@
                 display: block;
                 margin: 10px 0;
             }
-            
-            table {
-                font-size: 0.9em;
-            }
         }
     </style>
 </head>
@@ -232,8 +214,8 @@
     <!-- 始頁 -->
     <div id="start-page">
         <h1>東方文理大學</h1>
-        <p class="subtitle">校董會及校領導名單</p>
-        <button id="enter-btn">進入名單</button>
+        <p class="subtitle">校董會及校領導名錄</p>
+        <button id="enter-btn">閱覽名錄</button>
     </div>
 
     <!-- 正文 -->
@@ -243,20 +225,20 @@
                 <img src="images/logo.png" alt="東方文理大學徽記" 
                      onerror="this.onerror=null;this.src='images/logo.jpg';">
             </div>
-            <h1>東方文理大學 (ELAU)</h1>
+            <h1>東方文理大學</h1>
             <p><em>明德至善 博學創新</em></p>
         </header>
 
         <div class="nav">
             <h2>速覽</h2>
-            <a href="#leadership">校董會及校領導名單</a>
+            <a href="#board">校董會名錄</a>
+            <a href="#leadership">校領導班子</a>
+            <a href="#academic">學術委員會</a>
         </div>
 
-        <section id="leadership">
-            <h2>校董會及校領導</h2>
-            
+        <section id="board">
+            <h2>校董會</h2>
             <div class="highlight">
-                <h3>校董會</h3>
                 <table>
                     <tr>
                         <th>職位</th>
@@ -265,46 +247,129 @@
                     </tr>
                     <tr>
                         <td>校董會主席</td>
-                        <td>轩辕明德</td>
-                        <td>前礼部尚书，现任寰宇教育基金会理事长</td>
+                        <td>張國楨</td>
+                        <td>前禮部尚書，現任寰宇教育基金會理事長</td>
                     </tr>
                     <tr>
                         <td>常務校董</td>
-                        <td>南宫文渊</td>
-                        <td>火星開發總設計師</td>
+                        <td>王立新</td>
+                        <td>太學士，格物致知之大家</td>
                     </tr>
                     <tr>
                         <td>校董</td>
-                        <td>诸葛思齐</td>
-                        <td>量子计算专家</td>
+                        <td>李華</td>
+                        <td>東方書院山長，教育大家</td>
+                    </tr>
+                    <tr>
+                        <td>校董</td>
+                        <td>陳明</td>
+                        <td>商界巨擘，樂善好施</td>
+                    </tr>
+                    <tr>
+                        <td>校董</td>
+                        <td>劉芳</td>
+                        <td>本校傑出門生，商界翹楚</td>
                     </tr>
                 </table>
             </div>
-            
+        </section>
+
+        <section id="leadership">
+            <h2>校領導班子</h2>
             <div class="highlight">
-                <h3>校領導班子</h3>
                 <table>
                     <tr>
                         <th>職務</th>
                         <th>姓名</th>
+                        <th>職掌</th>
                         <th>簡介</th>
                     </tr>
                     <tr>
-                        <td>校长</td>
-                        <td>皇甫守正</td>
-                        <td>理论物理学家</td>
+                        <td>學監</td>
+                        <td>王衛東</td>
+                        <td>總攬學府綱紀</td>
+                        <td>經學大家，博士導師</td>
                     </tr>
                     <tr>
-                        <td>常務副校长</td>
-                        <td>长孙弘文</td>
-                        <td>古典文献学专家</td>
+                        <td>山長</td>
+                        <td>李明哲</td>
+                        <td>統攝學府庶務</td>
+                        <td>太學士，格物名家</td>
+                    </tr>
+                    <tr>
+                        <td>副學監</td>
+                        <td>張紅</td>
+                        <td>司職組織、宣教、統合</td>
+                        <td>德教專家</td>
+                    </tr>
+                    <tr>
+                        <td>常務副山長</td>
+                        <td>陳志強</td>
+                        <td>掌財用、人事、籌劃</td>
+                        <td>治學名家，博士導師</td>
+                    </tr>
+                    <tr>
+                        <td>副山長</td>
+                        <td>劉偉</td>
+                        <td>主理授業、招賢</td>
+                        <td>教習名家，革新先驅</td>
+                    </tr>
+                    <tr>
+                        <td>副山長</td>
+                        <td>趙明</td>
+                        <td>執掌研習、進士教養</td>
+                        <td>太學士，數術專家</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="academic">
+            <h2>學術委員會</h2>
+            <div class="highlight">
+                <table>
+                    <tr>
+                        <th>職位</th>
+                        <th>姓名</th>
+                        <th>專攻</th>
+                    </tr>
+                    <tr>
+                        <td>主事</td>
+                        <td>李明哲</td>
+                        <td>物性之學</td>
+                    </tr>
+                    <tr>
+                        <td>副主事</td>
+                        <td>王立新</td>
+                        <td>格物之學</td>
+                    </tr>
+                    <tr>
+                        <td>副主事</td>
+                        <td>張紅</td>
+                        <td>德教</td>
+                    </tr>
+                    <tr>
+                        <td>委員</td>
+                        <td>陳志強</td>
+                        <td>治學</td>
+                    </tr>
+                    <tr>
+                        <td>委員</td>
+                        <td>劉偉</td>
+                        <td>教習</td>
+                    </tr>
+                    <tr>
+                        <td>委員</td>
+                        <td>趙明</td>
+                        <td>數術</td>
                     </tr>
                 </table>
             </div>
         </section>
 
         <footer>
-            <p>© 民國一百一十四年 東方文理大學</p>
+            <p>© 歲次乙巳 東方文理大學</p>
+            <p>駐蹕：京師海淀學院路十五號 | 郵傳：100083 | 急腳遞：010-82345678</p>
         </footer>
     </div>
 
